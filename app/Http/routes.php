@@ -30,4 +30,4 @@ Route::get('/users/{id}','users@show');
 Route::delete('/user/delete', [
     'as' => 'delete_user', 'uses' => 'users@delete'
 ]);
-
+//this is for testing
